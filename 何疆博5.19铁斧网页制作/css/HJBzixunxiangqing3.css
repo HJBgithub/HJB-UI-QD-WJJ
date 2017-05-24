@@ -1,0 +1,125 @@
+/* 广告部分开始 */
+.adv{
+	width: 100%;
+	height: 90px;
+}
+.adv1{
+	width: 1920px;
+	height: 100%;
+	background: #d5c9bd;
+	margin: 0 auto;
+}
+img{
+	display: block;
+	width: 295px;
+	height: 100%;
+	margin: 0 auto;
+}
+/* 广告部分结束 */
+
+/* 导航部分开始 */
+nav{
+	width: 100%;
+	height: 50px;
+}
+.nav{
+	width: 1920px;
+	height: 100%;
+	background: #462327;
+	margin: 0 auto;
+}
+nav .nav ul{
+	width: 831px;
+	height: 100%;
+	margin: 0 auto;
+	line-height: 50px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+nav .nav ul li{
+	float: left;
+	color: #ffa265;
+	font-size: 16px;
+	margin-right: 33px;
+	cursor: pointer;
+}
+nav .nav ul li:nth-child(2){
+	color: #ffd7bc;
+}
+nav .nav ul li:last-child{
+	margin-right: 0;
+}
+nav .nav ul li:hover{
+	color: #ffd7bc;
+}
+/* 导航部分结束 */
+
+/* 主体部分开始 */
+main{
+	width: 1920px;
+	height: auto;
+	margin: 0 auto;
+}
+.jdthimg{
+	width: 1200px;
+	height: 130px;
+	background: url('../img/chanpinxiangqing3_03.png') no-repeat center center;
+	background-size: 1200px 130px; 
+	margin: 24px auto 0;
+}
+.jdthhome{
+	width: 1202px;
+	height: 30px;
+	margin: 45px auto 0;
+	line-height: 30px;
+	font-size: 18px;
+}
+.jdthhomeimg1{
+	width: 30px;
+	height: 30px;
+	background: url('../img/jdthhome_03.png') no-repeat center center;
+	background-size: 30px 30px;
+	float: left;
+	margin-right: 4px;
+}
+.jdthhome a{
+	color: #8f8f8f;
+	float: left;
+	letter-spacing: 1px;
+}
+.jdthhome a:hover{
+    color: #462327;
+}
+.jdthhomeimg2{
+	width: 30px;
+	height: 30px;
+	background: url('../img/jdthhome_05.png') no-repeat center center;
+	background-size: 30px 30px;
+	float: left;
+	margin-right: 4px;
+}
+.jdthhome span{
+	color: #462327;
+	float: left;
+	letter-spacing: 1px;
+}
+.jdthimg1{
+	width: 100%;
+	height: 520px;
+	background: url('../img/chanpinxiangqing3_10.png') no-repeat center center;
+	background-size: 1920px 520px;
+	margin: 45px auto 0;
+	overflow: hidden;
+}
+main .jdthimg1 ul{	
+	writing-mode: tb-rl;
+	margin-left: 1147px;
+	margin-top: 98px;
+}
+.jdthimg1 ul li{
+	font-size: 12px;
+	color: #a4a4a4;
+	margin-right: 19px;
+	letter-spacing: 1px;
+}

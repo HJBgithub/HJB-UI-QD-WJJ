@@ -44,7 +44,7 @@ nav .nav ul li{
 	margin-right: 33px;
 	cursor: pointer;
 }
-nav .nav ul li:nth-child(7){
+nav .nav ul li:nth-child(2){
 	color: #ffd7bc;
 }
 nav .nav ul li:last-child{
@@ -64,7 +64,7 @@ main{
 .jdthimg{
 	width: 1200px;
 	height: 130px;
-	background: url('../img/jiamengyeimg_03.png') no-repeat center center;
+	background: url('../img/chanpinxiangqing3_03.png') no-repeat center center;
 	background-size: 1200px 130px; 
 	margin: 24px auto 0;
 }
@@ -81,12 +81,15 @@ main{
 	background: url('../img/jdthhome_03.png') no-repeat center center;
 	background-size: 30px 30px;
 	float: left;
-	margin-right: 2px;
+	margin-right: 4px;
 }
 .jdthhome a{
 	color: #8f8f8f;
 	float: left;
 	letter-spacing: 1px;
+}
+.jdthhome a:hover{
+    color: #462327;
 }
 .jdthhomeimg2{
 	width: 30px;
@@ -104,15 +107,15 @@ main{
 .jdthimg1{
 	width: 100%;
 	height: 520px;
-	background: url('../img/jiamengyeimg_06.png') no-repeat center center;
+	background: url('../img/chanpinxiangqing3_10.png') no-repeat center center;
 	background-size: 1920px 520px;
 	margin: 45px auto 0;
 	overflow: hidden;
 }
 main .jdthimg1 ul{	
 	writing-mode: tb-rl;
-	margin-left: 1170px;
-	margin-top: 188px;
+	margin-left: 1147px;
+	margin-top: 98px;
 }
 .jdthimg1 ul li{
 	font-size: 12px;
@@ -120,194 +123,151 @@ main .jdthimg1 ul{
 	margin-right: 19px;
 	letter-spacing: 1px;
 }
-.jdthimg2{
-	width: 329px;
-	height: 68px;
-	background: url('../img/jiamengyeimg_09.png') no-repeat center center;
-	background-size: 329px 68px;
-	margin: 124px auto 0;
-}
-.enterprise{
-	width: 998px;
-	height: 316px;
-	background: #ffffff;
-	border: 1px solid #999999;
-	margin: 60px auto 0;
-	position: relative;
-}
-.enterpriseimg{
-	width: 155px;
-	height: 60px;
-	background: url('../img/jiamengyeimg_13.png') no-repeat center center;
-	background-size: 155px 60px;
-    position: absolute;
-    top: -19px;
-    left: 31px;
-}
-.enterprise1{
-	width: 813px;
-	height: 60px;
-	background: #fff;
-	border-bottom: 1px solid #999999;
-	position: absolute;
-	top: -30px;
-	right: -1px;
-}
-.enterprise p{
-	width: 747px;
-	height: 61px;
-	margin: 78px auto 0;
-	line-height: 22px;
-	color: #462327;
-}
-.enterprise span{
-	width: 747px;
-	height: 61px;
-	display: block;
-	margin: 39px auto 0;
-	color: #b0b0b0;
-}
-.enaftimg{
-	width: 1198px;
-	height: 495px;
-	margin: 47px auto 0;
-}
-.enterpriseimg1{
-	width: 155px;
-	height: 60px;
-	background: url('../img/jiamengtittle_17.png') no-repeat center center;
-	background-size: 155px 60px;
-    position: absolute;
-    top: -19px;
-    left: 31px;
-}
-.enaftimg1{
-	width: 370px;
-	height: 100%;
-	background: url('../img/jaimengimg_03.png') no-repeat center center;
-	background-size: 370px 495px;
-	margin-right: 13px;
-	float: left; 
-}
-.enaftimg2{
-	width: 400px;
-	height: 100%;
-	background: url('../img/jaimengimg_05.png') no-repeat center center;
-	background-size: 400px 495px;
-	margin-right: 15px;
-	float: left;	
-}
-.enaftimg3{
-	width: 400px;
-	height: 100%;
-	float: left;
-}
-.enaftimg31{
-	width: 100%;
-	height: 240px;
-	background: url('../img/jaimengimg_07.png') no-repeat center center;
-	background-size: 400px 495px;
-}
-.enaftimg32{
-	width: 100%;
-	height: 240px;
-	background: url('../img/jaimengimg_10.png') no-repeat center center;
-	background-size: 400px 495px;
-	margin-top: 15px;
-}
-.enimg1{
+.chanpin1{
 	width: 1200px;
-	height: 320px;
-	margin: 68px auto 0;
+	height: 628px;
+	margin: 89px auto 0;
 }
-.enimg11{
-	width: 600px;
+.chanpin11{
+	width: 581px;
 	height: 100%;
-	background: url('../img/jaimengimg_15.png') no-repeat center center;
-	background-size: 600px 320px;
 	float: left;
 }
-.enimg12{
-	width: 600px;
-	height: 100%;
-	background: url('../img/jaimengimg_17.png') no-repeat center center;
-	background-size: 600px 320px;
-	float: left;
-}
-.enabout{
-	width: 1920px;
-	height: 577px;
-	background: url('../img/jaimengimg_21.png') no-repeat center center;
-	background-size: 1920px 577px;
-	margin: 170px auto 0;
-	position: relative;
-}
-.enter{
-	width: 998px;
-	height: 316px;
-	background: #ffffff;
-	border: 2px solid #cccccc;
-	margin: 60px auto 0;
-	position: absolute;
-	top: -69px;
-	position: relative;
-}
-.enterimg1{
-	width: 176px;
-	height: 60px;
-	background: url('../img/jiamengabout_03.png') no-repeat center center;
-	background-size: 155px 60px;
-	z-index: 2;
-    position: absolute;
-    top: -18px;
-    left: 31px;
-}
-.enter1{
-	width: 813px;
-	height: 60px;
-	background: #fff;
-	border-bottom: 2px solid #cccccc;
-	position: absolute;
-	top: -40px;
-	right: -1px;
-}
-.enter p{
-	width: 747px;
-	height: 61px;
-	margin: 78px auto 0;
-	line-height: 22px;
+.chanpin11 a{
+	font-size: 18px;
 	color: #462327;
+	line-height: 30px;
+	font-weight: bold;
 }
-.enter span{
-	width: 747px;
-	height: 61px;
+.chanpin11 a span:first-child{
+	font-size: 58px;
+	color: #cc0000;
 	display: block;
-	margin: 39px auto 0;
-	color: #b0b0b0;
+	margin-top: 20px;
+	margin-bottom: 80px;
 }
-.add{
-	width: 780px;
-	height: 91px;
-	margin: 63px auto 0;
+.chanpin11 a span:nth-child(2){
 	font-size: 26px;
-	color: #666666;
-}
-.wechat{
-	width: 570px;
-	height: 216px;
-	margin: 144px auto 0;
-	font-size: 30px;
 	color: #462327;
 }
-.wechat1{
-	width: 149px;
-	height: 149px;
-	background: url('../img/jaimengimg_24.png') no-repeat center center;
-	background-size: 149px 149px;
-	margin:0 auto;
+.chanpin11 p{
+	font-size: 10px;
+    color: #999999;
 }
-.wechat p{
-	margin: 38px auto 0;
+.chanpin11 span{
+	color: #462327;
+	font-size: 20px;
+}
+.chanpin111{
+	width: 581px;
+	height: 60px;
+	margin-top: 19px;
+}
+.chanpin1111{
+	width: 280px;
+	height: 100%;
+	background: #7c4847;
+	float: left;
+	border-radius: 14px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 24px;
+	color: #f0f0f0;
+}
+.chanpin1112{
+	width: 280px;
+	height: 100%;
+	background: #7c4847;
+	float: right;
+	border-radius: 14px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 24px;
+	color: #f0f0f0;
+}
+.chanpin12{
+	width: 469px;
+	height: 628px;
+	float: right;
+}
+.chanpin121{
+	width: 100%;
+	height: 469px;
+	background: url('../img/chanpinxiangqing3_14.png') no-repeat center center;
+	background-size: 469px 469px;
+}
+.chanpin122{
+	width: 153px;
+	height: 152px;
+	background: url('../img/chanpinxiangqing3_17.png') no-repeat center center;
+	background-size: 153px 152px;
+	float: left;
+	margin-top: 7px;
+	margin-right: 5px;
+}
+.chanpin123{
+	width: 153px;
+	height: 152px;
+	background: url('../img/chanpinxiangqing3_19.png') no-repeat center center;
+	background-size: 153px 152px;
+	float: left;
+	margin-top: 7px;
+	margin-right: 5px;
+}
+.chanpin124{
+	width: 153px;
+	height: 152px;
+	background: url('../img/chanpinxiangqing3_21.png') no-repeat center center;
+	background-size: 153px 152px;
+	float: left;
+	margin-top: 7px;
+}
+.chanpin2{
+	width: 1200px;
+	height: 53px;
+	border-top: 1px solid #e3e3e3;
+	margin: 37px auto 0;
+}
+.chanpin3{
+	width: 926px;
+	height: 295px;
+	background: url('../img/chanpinxiangqing3_26.png') no-repeat center center;
+	background-size: 912px 278px;
+	border: 3px solid #dad3d4;
+	margin: 0 auto;
+}
+.chanpin31{
+	width: 487px;
+	height: 193px;
+	float: left;
+	margin: 47px 0 0 72px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #462327;	
+}
+.chanpin31 span{
+	display: block;
+	margin-top: -8px;
+}
+.chanpin32{
+	width: 367px;
+	height: 193px;
+	float: left;
+	margin: 47px 0 0 0px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #462327;	
+}
+.chanpin32 span{
+	display: block;
+	margin-top: -8px;
+}
+.imgaft3img3{
+	width: 325px;
+	height: 88px;
+	background: url('../img/imgaft3img3_03.png') no-repeat center center;
+	background-size: 325px 88px;
+	margin: 68px auto 45px;
 }
 /* 主体部分结束 */
 
@@ -320,7 +280,7 @@ footer{
 	width: 1920px;
 	height: 320px;
     background: #462327;
-    margin: 92px auto 0;
+    margin: 0 auto;
 }
 .imgaft4img1{
 	width: 394px;
@@ -333,7 +293,7 @@ footer{
 	width: 68px;
 	height: 68px;
 	border-radius: 50%;
-	background: #efefef;
+	background: #dddddd;
 	opacity: 0.6;
 	margin: -34px auto;
 }
